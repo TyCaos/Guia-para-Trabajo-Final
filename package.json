@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-arcoiris",
+  "name": "guia-trabajo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1",
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
+    "@types/vue": "^1.0.31",
+    "@types/vue-router": "^2.0.0",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",

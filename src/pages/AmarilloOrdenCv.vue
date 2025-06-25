@@ -82,7 +82,7 @@ const dropArea = ref<HTMLElement | null>(null)
 const draggedItem = ref<CvItem | null>(null)
 let uidCounter = 1
 
-function onDragStart(event: DragEvent, item: CvItem) {
+function onDragStart(_event: DragEvent, item: CvItem) {
   draggedItem.value = item
 }
 
