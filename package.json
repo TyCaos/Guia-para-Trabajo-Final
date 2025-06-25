@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build --base=/Guia-para-Trabajo-Final/ && gh-pages -d dist"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
@@ -21,6 +22,8 @@
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",
     "vite": "^6.3.5",
-    "vue-tsc": "^2.2.8"
+    "vue-tsc": "^2.2.8",
+    "gh-pages": "^6.0.0"
   }
 }
+
